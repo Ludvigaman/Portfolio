@@ -13,6 +13,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { WhoamiComponent } from './whoami/whoami.component';
+import {MatCardModule} from '@angular/material/card';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -24,13 +26,15 @@ import { WhoamiComponent } from './whoami/whoami.component';
     FooterComponent,
     ProjectsComponent,
     ExperienceComponent,
-    WhoamiComponent
+    WhoamiComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgxTypedWriterModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [
     provideAnimationsAsync()
