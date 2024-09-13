@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    width: 20%;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    height: 20px;
+    width: 20%;
+}
+
+.linkItem {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navItem {
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: font-size 0.3s ease; /* Transition for smooth effect */
+}
+
+.navItem:hover {
+    font-size: 15px;
+}
+
+.navIcon {
+    margin-right: 10px;
+    height: 20px; /* Moved from inline style */
+}
+
+.headerDivider {
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    border: 1px solid #3f3f3f;
+    width: 90%;
+    margin: 0;
+}
+
+p {
+    margin: 0 !important;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title, .links {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navItem {
+        margin: 10px;
+    }
+
+    .navIconText {
+        display: none;
+    }
+}

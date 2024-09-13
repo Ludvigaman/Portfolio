@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    background-color: #282d33;
+}
+
+* {
+    font-family: 'JetBrains Mono'; 
+    color: white;
+}
+
+.iconColour{
+    filter: invert(71%) sepia(87%) saturate(433%) hue-rotate(111deg) brightness(92%) contrast(97%);
+}
+
+.mainColour {
+    color: #15e8c8;
+}
+
+.active {
+    color: #15e8c8;
+}

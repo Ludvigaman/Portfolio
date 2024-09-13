@@ -1,0 +1,22 @@
+<div class="header">
+    <div class="title pointer" [routerLink]="['']" aria-label="Home">
+        <p class="mainColour">&lt;Ludvig/&gt;</p><p>Aman</p>
+    </div>
+    <div class="nav">
+        <div class="navItem" [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" aria-label="Overview">Overview</div>
+        <div class="navItem" [routerLink]="['projects']" routerLinkActive="active" aria-label="Projects">Projects</div>
+        <div class="navItem" [routerLink]="['cv']" routerLinkActive="active" aria-label="Experience">Experience</div>
+        <div class="navItem" [routerLink]="['whoami']" routerLinkActive="active" aria-label="WhoAmI">WhoAmI</div>
+    </div>
+    <div class="links">
+        <a class="linkItem pointer" href="https://github.com/ludvigaman" target="_blank" aria-label="GitHub">
+            <img src="/assets/icons/github-mark.svg" class="iconColour navIcon"><p class="navIconText">GitHub</p>
+        </a>
+        <a class="linkItem pointer" href="https://www.linkedin.com/in/ludvigaman/" target="_blank" aria-label="LinkedIn">
+            <img src="/assets/icons/linkedin.svg" class="iconColour navIcon"><p class="navIconText">LinkedIn</p>
+        </a>
+    </div>
+</div>
+<div class="headerDivider">
+    <hr class="divider">
+</div>

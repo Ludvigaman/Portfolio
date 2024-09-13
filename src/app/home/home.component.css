@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    align-items: left;
+    padding: 5px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .tw {
+        font-size: 15px;
+    }
+}
