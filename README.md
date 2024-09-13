@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
+Repo for my Portfolio webpage. 
+You're very free to use the code / website for your own portfolio!
+Please keep in mind the MIT license; please keep in mind to give credit :)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
