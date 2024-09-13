@@ -79,12 +79,12 @@ p {
     }
 
     .nav {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
 
     .navItem {
-        margin: 10px;
+        margin: 5px;
     }
 
     .navIconText {

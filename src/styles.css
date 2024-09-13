@@ -19,6 +19,10 @@ body {
     color: #15e8c8;
 }
 
+.mainFont {
+    font-family: 'JetBrains Mono' !important; 
+}
+
 .active {
     color: #15e8c8;
 }

@@ -20,18 +20,18 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class AppComponent implements OnInit {
-  splashVisible = true;
-  mainVisible = false;
+  splashVisible = false;
+  mainVisible = true;
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.splashVisible = true;
-      setTimeout(() => {
-        this.splashVisible = false;
-        setTimeout(() => {
-          this.mainVisible = true;
-        }, 1000)
-      }, 3000); // How long the splash stays
-    }, 2000); // Initial delay
+    // setTimeout(() => {
+    //   this.splashVisible = true;
+    //   setTimeout(() => {
+    //     this.splashVisible = false;
+    //     setTimeout(() => {
+    //       this.mainVisible = true;
+    //     }, 1000)
+    //   }, 3000); // How long the splash stays
+    // }, 2000); // Initial delay
   }
 }
