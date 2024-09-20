@@ -21,4 +21,6 @@ import { Component } from '@angular/core';
 })
 export class WhoamiComponent {
 
+  strings: string[] = [ '<div class="mainColour">How hard can it be?</div>'];
+
 }
